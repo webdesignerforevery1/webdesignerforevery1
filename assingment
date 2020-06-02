@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Assingment</title>
+</head>
+<body>
+	<header>
+	   <h1>Kamal</h1>
+       <nav>
+       	<a href="#One">One</a>
+       	<a href="#Two">Two</a>
+       	<a href="#Three">Three</a>
+       	<a href="#About ME">About Me</a>
+       </nav> 
+	</header>
+	<section>
+		<article class="post">
+            <h2>Favorite Foods</h2>
+			<ul>
+			  <li>Mango</li>
+			  <li>Burger</li>
+			  <li>Chicken</li>
+			  <li>Chocolates</li>
+			</ul>
+		</article>
+		<article class="post">
+			 <h2>Achievements</h2>
+			 <label for="Progress">Progress in this course(100%)</label>
+			 <meter id="Progress" value="10" min="0" max="10">10 out 10</meter><br>
+			 <label for="capstone"> progress in the Specialization capstone(20%)</label>
+			 <meter id="capstone" value="2" min="0" max="10">2 out 10</meter><br>
+			 <label for="goals">Progress in solving puzzles(93%)</label>
+			 <meter id="goals" value="0.93">93%</meter>
+		</article>
+		<article class="post">
+			  <h2>More About Me</h2>
+			  <details><summary>My Childhood</summary>i grew up in india.in childhood i like eating chocolates alot ...</details>
+		</article>
+
+	</section>
+	<footer>
+		<figure>
+			<img src="http://www.intro-webdesign.com/images/newlogo.png">This page was created by Kamal&ampCollen van Lent.To learn more about.
+			<figcaption>web design,visit <a href="#Intro to web Design">Intro to web design.</a></figcaption>
+		</figure> 
+	</footer>
+
+</body>
+</html>
